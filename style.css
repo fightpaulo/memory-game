@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#container{
+    background: brown;
+}
+
+#container div{
+   text-align: center;
+   width: 240px; 
+   height: 240px;
+   margin: auto;
+   box-shadow: 5px 5px 10px black;
+   border-radius: 5px;
+}
+
+div.row{
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+
+div.card{
+    display: table-cell;
+    background-color:rgba(2, 9, 19, 0.6); 
+}
+
+div img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+}
