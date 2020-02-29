@@ -19,7 +19,8 @@ function shuffleCards() {
 
       let rowIndex = getRandomDivRowIndex(rowsCount);
       let divRow = containerDivRows[rowsCount[rowIndex]];
-      removeRandomRowIndex(rowIndex);
+      console.log(rowsCount[rowIndex]);
+      removeRandomRowIndex(rowsCount[rowIndex]);
       addCardsToDiv(divRow);
 
       divRowsCount--;
